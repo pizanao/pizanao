@@ -15,20 +15,16 @@
 </p>
 
 ---
-<p align="center">
-  <img height="260em" src="https://github-readme-streak-stats.herokuapp.com/?user=pizanao&theme=tokyonight" />
-</p>
-
----
 
 <p align="center">
   <a href="https://www.linkedin.com/in/data-engineer-ai-python">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:pizanao@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
+
 </p>
 
 </div>
