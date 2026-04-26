@@ -6,8 +6,9 @@
   <i>Building intelligent systems that connect Data, AI and Business</i>
 </p>
 
-:toolbox: Stack Base
+
 ---
+
 <p align="center">
   <a href="#">
     <img src="https://skillicons.dev/icons?i=py,django,js,ts,nodejs,react,vue,vite,tensorflow,pytorch,sklearn,fastapi,cloudflare,aws,gcp,azure,nginx,selenium,git,docker,terraform,postman,vitest,kafka,postgres,redis,rabbitmq,mongodb,elasticsearch,arch,,&perline=10" />
