@@ -1,7 +1,7 @@
 <div align="center">
 
-<h1 align="center">Pizanao :brazil:</h1>
-<h3 align="center">Data Engineer | Python Full-Stack Developer | IA Industrial | Hiperautomação e RPA</h3>
+
+<h2 align="center">Data Engineer | Python Full-Stack Developer | IA Industrial | Hiperautomação e RPA</h2>
 <p align="center">
   <i>Building intelligent systems that connect Data, AI and Business</i>
 </p>
