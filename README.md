@@ -16,7 +16,7 @@
 
 ---
 <p align="center">
-  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=pizanao&theme=tokyonight" />
+  <img height="260em" src="https://github-readme-streak-stats.herokuapp.com/?user=pizanao&theme=tokyonight" />
 </p>
 
 ---
