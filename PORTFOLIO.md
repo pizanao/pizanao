@@ -19,8 +19,6 @@ description: Dashboard interativo dos projetos e arquitetura do ecossistema Piza
 
 ## Tech Stack Consolidada
 
-<!-- skillicons -->
-
 ### Backend
 
 ![Python](https://skillicons.dev/icons?i=py) ![Django](https://skillicons.dev/icons?i=django) ![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Celery](https://skillicons.dev/icons?i=celery) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Redis](https://skillicons.dev/icons?i=redis) ![RabbitMQ](https://skillicons.dev/icons?i=rabbitmq) ![DuckDB](https://skillicons.dev/icons?i=duckdb) ![dbt](https://skillicons.dev/icons?i=dbt)
@@ -41,11 +39,7 @@ description: Dashboard interativo dos projetos e arquitetura do ecossistema Piza
 
 ![Kotlin](https://skillicons.dev/icons?i=kotlin) ![IntelliJ](https://skillicons.dev/icons?i=intellij) ![PyCharm](https://skillicons.dev/icons?i=pycharm)
 
-<!-- skillicons -->
-
 ## Arquitetura do Ecossistema
-
-<!-- architecture -->
 
 ```mermaid
 architecture-beta
@@ -94,8 +88,6 @@ architecture-beta
     aistack            --> flowforge: API REST
 ```
 
-<!-- architecture -->
-
 ## Repositórios GitHub
 
 ### Repositórios GitHub (não-forks)
@@ -110,7 +102,6 @@ architecture-beta
 
 ## Projetos Locais (`/apps/`)
 
-<!-- local-projects -->
 ### Projetos em `/apps/`
 
 | Projeto | Tecnologias | Tipo | Complexidade |
@@ -199,8 +190,6 @@ flowchart TB
     TK --> CD
     KT --> JF
 ```
-<!-- local-projects -->
-
 ## Roadmap de Desenvolvimento
 
 ```mermaid
