@@ -231,7 +231,20 @@ kanban
 
 ## Health dos Serviços
 
-<!-- health -->
+| Serviço | URL | Porta | Descrição |
+|---------|-----|-------|-----------|
+| Portfolio HQ Frontend | http://localhost:5100 | 5100 | React + Vite |
+| Portfolio HQ Backend | http://localhost:8000/api/ | 8000 | Django + DRF |
+| FlowForge Frontend | http://localhost:5106 | 5106 | React Canvas |
+| FlowForge Backend | http://localhost:8006/api/ | 8006 | Django + Channels |
+| FlowForge WebSocket | ws://localhost:8006/ws/ | 8006 | Daphne ASGI |
+| LakeHouse Frontend | http://localhost:5173 | 5173 | React + Vite |
+| LakeHouse Backend | http://localhost:8000/api/ | 8000 | Django (compartilhado) |
+| Agente WhatsApp API | http://localhost:8002/docs | 8002 | FastAPI |
+| WAHA Dashboard | http://localhost:3000 | 3000 | WhatsApp gateway |
+| Ollama | http://localhost:11434 | 11434 | Local LLM |
+
+> Status: 🟢 Online | 🔴 Offline | 🟡 Desconhecido
 
 ## Como Funciona
 
