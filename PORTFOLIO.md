@@ -98,7 +98,15 @@ architecture-beta
 
 ## Repositórios GitHub
 
-<!-- github-repos -->
+### Repositórios GitHub (não-forks)
+
+| Repositório | Descrição | Tecnologias | Stars | Status | Link |
+|-------------|-----------|------------|-------|--------|------|
+| `pizanao` | Config do GitHub profile + dashboard | Markdown | ⭐0 | ✅ Ativo | [github.com/pizanao/pizanao](https://github.com/pizanao/pizanao) |
+| `portainer-pgvector` | — | — | ⭐0 | 🔄 Em Progresso | [github.com/pizanao/portainer-pgvector](https://github.com/pizanao/portainer-pgvector) |
+| `codechat-demo` | — | — | ⭐0 | 📋 Backlog | [github.com/pizanao/codechat-demo](https://github.com/pizanao/codechat-demo) |
+
+> **Nota:** A maioria dos projetos estão em `/apps/` (privados, não no GitHub). Os 58 forks não são exibidos.
 
 ## Projetos Locais (`/apps/`)
 
