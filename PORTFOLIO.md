@@ -21,6 +21,28 @@ description: Dashboard interativo dos projetos e arquitetura do ecossistema Piza
 
 <!-- skillicons -->
 
+### Backend
+
+![Python](https://skillicons.dev/icons?i=py) ![Django](https://skillicons.dev/icons?i=django) ![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Celery](https://skillicons.dev/icons?i=celery) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![Redis](https://skillicons.dev/icons?i=redis) ![RabbitMQ](https://skillicons.dev/icons?i=rabbitmq) ![DuckDB](https://skillicons.dev/icons?i=duckdb) ![dbt](https://skillicons.dev/icons?i=dbt)
+
+### Frontend
+
+![React](https://skillicons.dev/icons?i=react) ![Vite](https://skillicons.dev/icons?i=vite) ![Next.js](https://skillicons.dev/icons?i=nextjs) ![TypeScript](https://skillicons.dev/icons?i=typescript) ![Tailwind](https://skillicons.dev/icons?i=tailwind) ![Recharts](https://skillicons.dev/icons?i=recharts) ![shadcn/ui](https://skillicons.dev/icons?i=tailwind)
+
+### IA / Agentes
+
+![Ollama](https://skillicons.dev/icons?i=ollama) ![Anthropic](https://skillicons.dev/icons?i=anthropic) ![PyTorch](https://skillicons.dev/icons?i=pytorch) ![TensorFlow](https://skillicons.dev/icons?i=tensorflow) ![sklearn](https://skillicons.dev/icons?i=sklearn)
+
+### DevOps
+
+![Docker](https://skillicons.dev/icons?i=docker) ![Nginx](https://skillicons.dev/icons?i=nginx) ![GitHub Actions](https://skillicons.dev/icons?i=githubactions) ![Playwright](https://skillicons.dev/icons?i=playwright) ![Git](https://skillicons.dev/icons?i=git) ![Prisma](https://skillicons.dev/icons?i=prisma)
+
+### Desktop / IDE
+
+![Kotlin](https://skillicons.dev/icons?i=kotlin) ![IntelliJ](https://skillicons.dev/icons?i=intellij) ![PyCharm](https://skillicons.dev/icons?i=pycharm)
+
+<!-- skillicons -->
+
 ## Arquitetura do Ecossistema
 
 <!-- architecture -->
