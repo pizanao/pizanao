@@ -25,6 +25,55 @@ description: Dashboard interativo dos projetos e arquitetura do ecossistema Piza
 
 <!-- architecture -->
 
+```mermaid
+architecture-beta
+    group portfoliohq[Portfolio HQ
+        ‎Django 5.1 + React 18
+        Celery + Redis + PostgreSQL
+        Luna Agent (Ollama/Claude)]
+
+    group flowforge[FlowForge
+        Django 5.x + Channels
+        React Canvas + Daphne
+        Celery + PostgreSQL]
+
+    group lakehouse[LakeHouse Lab
+        Django + dbt Core
+        DuckDB + Parquet
+        Celery + PostgreSQL]
+
+    group tooling[Tooling
+        FastAPI + WAHA
+        Ollama + codegemma
+        Claude Dash Tkinter]
+
+    group aistack[AI Stack Farm
+        Next.js 14 + shadcn
+        Node.js + Prisma
+        Socket.IO]
+
+    group jetbrains[JetBrains Plugin
+        Kotlin 2.1
+        IntelliJ Platform 2.2]
+
+    group github[GitHub @pizanao
+        3 repos (não-forks)
+        58 forks]
+
+    portfoliohq        <--> flowforge: X-HQ-Token
+    portfoliohq        <--> lakehouse: API REST
+    portfoliohq        <--> tooling: Agentes
+    portfoliohq        <--> aistack: Webhook
+    flowforge          <--> lakehouse: Workflow nodes
+    flowforge          <--> tooling: Ollama
+    portfoliohq        <--> jetbrains: Claude Code
+    portfoliohq        <--> github: OAuth
+    github             --> portfoliohq: Webhooks
+    aistack            --> flowforge: API REST
+```
+
+<!-- architecture -->
+
 ## Repositórios GitHub
 
 <!-- github-repos -->
