@@ -111,6 +111,95 @@ architecture-beta
 ## Projetos Locais (`/apps/`)
 
 <!-- local-projects -->
+### Projetos em `/apps/`
+
+| Projeto | Tecnologias | Tipo | Complexidade |
+|---------|-------------|------|--------------|
+| **Portfolio HQ** | Django 5.1, React 18, Celery, Redis, PostgreSQL | SaaS | Alta |
+| **FlowForge** | Django 5.x, Channels, React, Celery, PostgreSQL | Plataforma | Alta |
+| **LakeHouse Lab** | Django, dbt Core, DuckDB, Parquet | Data | Média |
+| **Claude Dash** | Python, Tkinter | Desktop | Baixa |
+| **Agente WhatsApp** | FastAPI, WAHA, RabbitMQ, Redis | Bot | Média |
+| **Ferramentas / Agentes** | Python, Ollama (codegemma) | Tooling | Média |
+| **AI Stack Farm** | Next.js 14, Node.js, Prisma, TypeScript | SaaS | Alta |
+| **JetBrains Plugin** | Kotlin, IntelliJ Platform | IDE Plugin | Média |
+
+#### Conexões entre Projetos
+
+```mermaid
+graph LR
+    PHQ["🏠 Portfolio HQ<br/>(Gateway Central)"] --> FF["⚡ FlowForge<br/>(via X-HQ-Token)"]
+    PHQ --> LH["🗄️ LakeHouse Lab<br/>(API REST)"]
+    PHQ --> LUNA["🤖 Luna Agent<br/>(Ollama/Claude)"]
+    FF --> LUNA
+    PHQ --> AG["💬 Agente WhatsApp<br/>(Webhook)"]
+    PHQ --> TOOL["🔧 Ferramentas<br/>(Atlas/Pixel/Sentinel/Probe)"]
+    TOOL -.-> PHQ
+    TOOL -.-> FF
+    PHQ --> JF["🖥️ JetBrains Plugin<br/>(Claude Code)"]
+    PHQ --> CD["📊 Claude Dash<br/>(Desktop)"]
+    PHQ --> AISTACK["🌐 AI Stack Farm<br/>(Webhook)"]
+    AISTACK --> FF
+```
+
+#### Diagrama de Arquitetura Técnica
+
+```mermaid
+flowchart TB
+    subgraph Backend["Backend"]
+        DJ["🐍 Django 5.x<br/>Portfolio HQ + FlowForge + LakeHouse"]
+        FA["⚡ FastAPI<br/>Agente WhatsApp"]
+        NX["🌐 Next.js 14<br/>AI Stack Farm"]
+        ND["📊 Node.js<br/>AI Stack Farm API"]
+    end
+
+    subgraph Workers["Workers"]
+        CY["🔴 Celery<br/>Tasks async + Beat"]
+        RQ["🐰 RabbitMQ<br/>Message broker"]
+        RD["🍎 Redis<br/>Cache + Broker"]
+    end
+
+    subgraph Database["Data"]
+        PG["🐘 PostgreSQL<br/>Fluxo + Portfolio + AI Stack"]
+        DK["🦆 DuckDB<br/>LakeHouse engine"]
+        PQ["📦 Parquet<br/>Bronze/Silver/Gold"]
+    end
+
+    subgraph AI["IA Layer"]
+        LL["🦙 Ollama<br/>Local LLM (zero custo)"]
+        AN["🧠 Claude API<br/>Text-to-SQL + agents"]
+        CG["🤖 codegemma:7b<br/>Ferramentas agentes"]
+    end
+
+    subgraph Frontend["Frontend"]
+        RT["⚛️ React 18<br/>Portfolio HQ + FlowForge"]
+        VW["⚡ Vite 6<br/>Build tool"]
+        RC["📊 Recharts<br/>Charts"]
+    end
+
+    subgraph Desktop["Desktop / IDE"]
+        TK["🐍 Tkinter<br/>Claude Dash"]
+        KT["🇰ttier Kotlin<br/>JetBrains Plugin"]
+    end
+
+    DJ <--> PG
+    DJ <--> CY
+    CY <--> RD
+    CY <--> RQ
+    FA <--> RQ
+    FA <--> RD
+    NX <--> ND
+    ND <--> PG
+    DJ <--> LL
+    LL <--> DK
+    DK <--> PQ
+    LH["🦆 DuckDB + dbt"] --> DK
+    RT <--> DJ
+    RT <--> VW
+    TK --> CD
+    KT --> JF
+```
+<!-- local-projects -->
 
 ## Roadmap de Desenvolvimento
 
