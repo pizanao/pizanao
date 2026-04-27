@@ -84,7 +84,31 @@ architecture-beta
 
 ## Roadmap de Desenvolvimento
 
-<!-- kanban -->
+```mermaid
+kanban
+    title Roadmap de Projetos
+    id1[📋 Backlog] : Landing page responsive (mobile)
+    id2[📋 Backlog] : Scheduling LakeHouse via Celery Beat
+    id3[📋 Backlog] : Filtros de visitantes no dashboard
+    id4[📋 Backlog] : Auto-refresh configurável
+    id5[📋 Backlog] : Data quality checks LakeHouse
+    id6[📋 Backlog] : Export CSV/Parquet LakeHouse
+    id7[📋 Backlog] : Excel/Google Sheets LakeHouse
+    id8[📋 Backlog] : GitHub Actions CI AI Stack Farm
+    id9[📋 Backlog] : Multi-tenancy AI Stack Farm
+    id10[📋 Backlog] : portainer-pgvector
+    id11[📋 Backlog] : codechat-demo
+    id12[🔄 Em Progresso] : ---
+    id13[✅ Feito] : Portfolio HQ (MVP completo)
+    id14[✅ Feito] : FlowForge (canvas + WebSocket + Celery)
+    id15[✅ Feito] : LakeHouse Lab (MVP completo)
+    id16[✅ Feito] : Claude Dash (MVP completo)
+    id17[✅ Feito] : Agente WhatsApp (MVP completo)
+    id18[✅ Feito] : Ferramentas Agentes (pipeline 4 agentes)
+    id19[✅ Feito] : AI Stack Farm (MVP completo)
+    id20[✅ Feito] : JetBrains Plugin (publicado v1.3.0)
+    id21[✅ Feito] : PORTFOLIO.md dashboard
+```
 
 ## Health dos Serviços
 
