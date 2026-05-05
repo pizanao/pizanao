@@ -1,11 +1,9 @@
 <div align="center">
 
-
 <h3 align="center">Data Engineer | Python Full-Stack Developer | IA Industrial | Hiperautomação e RPA</h3>
 <p align="center">
   <i>Building intelligent systems that connect Data, AI and Business</i>
 </p>
-
 
 ---
 
@@ -15,28 +13,6 @@
   </a>
 </p>
 
----
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/data-engineer-ai-python">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:pizanao@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
-
-</p>
-
 </div>
 
-
 ---
-
-
-
-
-
-
-
-
